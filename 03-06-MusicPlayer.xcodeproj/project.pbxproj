@@ -7,16 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A712BFF62CA15B67005E786D /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A712BFF52CA15B67005E786D /* ChartView.swift */; };
+		A712BFF82CA15E68005E786D /* SongListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A712BFF72CA15E68005E786D /* SongListItemView.swift */; };
+		A712BFFA2CA15E77005E786D /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = A712BFF92CA15E77005E786D /* Song.swift */; };
+		A712BFFD2CA1642F005E786D /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A712BFFC2CA1642F005E786D /* Utils.swift */; };
+		A712C0012CA16B27005E786D /* SongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A712C0002CA16B27005E786D /* SongView.swift */; };
 		DB9E9E302CA155A900B47DFA /* _3_06_MusicPlayerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9E9E2F2CA155A900B47DFA /* _3_06_MusicPlayerApp.swift */; };
-		DB9E9E322CA155A900B47DFA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9E9E312CA155A900B47DFA /* ContentView.swift */; };
 		DB9E9E342CA155AD00B47DFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB9E9E332CA155AD00B47DFA /* Assets.xcassets */; };
 		DB9E9E372CA155AD00B47DFA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB9E9E362CA155AD00B47DFA /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A712BFF52CA15B67005E786D /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		A712BFF72CA15E68005E786D /* SongListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongListItemView.swift; sourceTree = "<group>"; };
+		A712BFF92CA15E77005E786D /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		A712BFFC2CA1642F005E786D /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		A712C0002CA16B27005E786D /* SongView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongView.swift; sourceTree = "<group>"; };
 		DB9E9E2C2CA155A900B47DFA /* 03-06-MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "03-06-MusicPlayer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB9E9E2F2CA155A900B47DFA /* _3_06_MusicPlayerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _3_06_MusicPlayerApp.swift; sourceTree = "<group>"; };
-		DB9E9E312CA155A900B47DFA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DB9E9E332CA155AD00B47DFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB9E9E362CA155AD00B47DFA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -32,6 +40,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A712BFF32CA15AF5005E786D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A712BFF92CA15E77005E786D /* Song.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A712BFF42CA15AFA005E786D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A712BFF52CA15B67005E786D /* ChartView.swift */,
+				A712BFF72CA15E68005E786D /* SongListItemView.swift */,
+				A712C0002CA16B27005E786D /* SongView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A712BFFB2CA16422005E786D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A712BFFC2CA1642F005E786D /* Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		DB9E9E232CA155A900B47DFA = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +85,10 @@
 		DB9E9E2E2CA155A900B47DFA /* 03-06-MusicPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				A712BFFB2CA16422005E786D /* Utils */,
+				A712BFF42CA15AFA005E786D /* Views */,
+				A712BFF32CA15AF5005E786D /* Models */,
 				DB9E9E2F2CA155A900B47DFA /* _3_06_MusicPlayerApp.swift */,
-				DB9E9E312CA155A900B47DFA /* ContentView.swift */,
 				DB9E9E332CA155AD00B47DFA /* Assets.xcassets */,
 				DB9E9E352CA155AD00B47DFA /* Preview Content */,
 			);
@@ -137,8 +173,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB9E9E322CA155A900B47DFA /* ContentView.swift in Sources */,
+				A712BFFD2CA1642F005E786D /* Utils.swift in Sources */,
+				A712BFF82CA15E68005E786D /* SongListItemView.swift in Sources */,
+				A712BFFA2CA15E77005E786D /* Song.swift in Sources */,
+				A712C0012CA16B27005E786D /* SongView.swift in Sources */,
 				DB9E9E302CA155A900B47DFA /* _3_06_MusicPlayerApp.swift in Sources */,
+				A712BFF62CA15B67005E786D /* ChartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +319,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +348,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
