@@ -1,0 +1,256 @@
+{
+    "feed": {
+        "title": "Top Songs",
+        "id": "https://rss.applemarketingtools.com/api/v2/gb/music/most-played/10/songs.json",
+        "author": {
+            "name": "Apple",
+            "url": "https://www.apple.com/"
+        },
+        "links": [
+            {
+                "self": "https://rss.applemarketingtools.com/api/v2/gb/music/most-played/10/songs.json"
+            }
+        ],
+        "copyright": "Copyright © 2024 Apple Inc. All rights reserved.",
+        "country": "gb",
+        "icon": "https://www.apple.com/favicon.ico",
+        "updated": "Tue, 24 Sep 2024 11:13:09 +0000",
+        "results": [
+            {
+                "artistName": "Sabrina Carpenter",
+                "id": "1750307079",
+                "name": "Taste",
+                "releaseDate": "2024-08-23",
+                "kind": "songs",
+                "artistId": "390647681",
+                "artistUrl": "https://music.apple.com/gb/artist/sabrina-carpenter/390647681",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f6/15/d0/f615d0ab-e0c4-575d-907e-1cc084642357/24UMGIM61704.rgb.jpg/100x100bb.jpg",
+                "genres": [
+                    {
+                        "genreId": "14",
+                        "name": "Pop",
+                        "url": "https://itunes.apple.com/gb/genre/id14"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/gb/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/gb/album/taste/1750307020?i=1750307079"
+            },
+            {
+                "artistName": "Billie Eilish",
+                "id": "1739659142",
+                "name": "BIRDS OF A FEATHER",
+                "releaseDate": "2024-05-17",
+                "kind": "songs",
+                "artistId": "1065981054",
+                "artistUrl": "https://music.apple.com/gb/artist/billie-eilish/1065981054",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/92/9f/69/929f69f1-9977-3a44-d674-11f70c852d1b/24UMGIM36186.rgb.jpg/100x100bb.jpg",
+                "genres": [
+                    {
+                        "genreId": "20",
+                        "name": "Alternative",
+                        "url": "https://itunes.apple.com/gb/genre/id20"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/gb/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/gb/album/birds-of-a-feather/1739659134?i=1739659142"
+            },
+            {
+                "artistName": "Sabrina Carpenter",
+                "id": "1740212434",
+                "name": "Espresso",
+                "releaseDate": "2024-04-11",
+                "kind": "songs",
+                "artistId": "390647681",
+                "artistUrl": "https://music.apple.com/gb/artist/sabrina-carpenter/390647681",
+                "contentAdvisoryRating": "Explict",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/cb/64/8c/cb648cf7-e7bb-bd00-efe0-d744312c29a8/24UMGIM32304.rgb.jpg/100x100bb.jpg",
+                "genres": [
+                    {
+                        "genreId": "14",
+                        "name": "Pop",
+                        "url": "https://itunes.apple.com/gb/genre/id14"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/gb/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/gb/album/espresso/1740212432?i=1740212434"
+            },
+            {
+                "artistName": "Chappell Roan",
+                "id": "1737497080",
+                "name": "Good Luck, Babe!",
+                "releaseDate": "2024-04-05",
+                "kind": "songs",
+                "artistId": "1264818718",
+                "artistUrl": "https://music.apple.com/gb/artist/chappell-roan/1264818718",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/29/a7/c4/29a7c478-351d-25eb-a116-3e68118cdab8/24UMGIM31246.rgb.jpg/100x100bb.jpg",
+                "genres": [
+                    {
+                        "genreId": "14",
+                        "name": "Pop",
+                        "url": "https://itunes.apple.com/gb/genre/id14"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/gb/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/gb/album/good-luck-babe/1737497078?i=1737497080"
+            },
+            {
+                "artistName": "Sabrina Carpenter",
+                "id": "1750307080",
+                "name": "Please Please Please",
+                "releaseDate": "2024-06-07",
+                "kind": "songs",
+                "artistId": "390647681",
+                "artistUrl": "https://music.apple.com/gb/artist/sabrina-carpenter/390647681",
+                "contentAdvisoryRating": "Explict",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f6/15/d0/f615d0ab-e0c4-575d-907e-1cc084642357/24UMGIM61704.rgb.jpg/100x100bb.jpg",
+                "genres": [
+                    {
+                        "genreId": "14",
+                        "name": "Pop",
+                        "url": "https://itunes.apple.com/gb/genre/id14"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/gb/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/gb/album/please-please-please/1750307020?i=1750307080"
+            },
+            {
+                "artistName": "Lady Gaga & Bruno Mars",
+                "id": "1762656732",
+                "name": "Die With A Smile",
+                "releaseDate": "2024-08-16",
+                "kind": "songs",
+                "artistId": "277293880",
+                "artistUrl": "https://music.apple.com/gb/artist/lady-gaga/277293880",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/11/ae/f2/11aef294-f57c-bab9-c9fc-529162984e62/24UMGIM85348.rgb.jpg/100x100bb.jpg",
+                "genres": [
+                    {
+                        "genreId": "14",
+                        "name": "Pop",
+                        "url": "https://itunes.apple.com/gb/genre/id14"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/gb/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/gb/album/die-with-a-smile/1762656724?i=1762656732"
+            },
+            {
+                "artistName": "Shaboozey",
+                "id": "1737085899",
+                "name": "A Bar Song (Tipsy)",
+                "releaseDate": "2024-04-12",
+                "kind": "songs",
+                "artistId": "914125510",
+                "artistUrl": "https://music.apple.com/gb/artist/shaboozey/914125510",
+                "contentAdvisoryRating": "Explict",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/97/b5/bc/97b5bca2-6238-2421-4f0d-1f7a39d5d9d4/197342550925_cover.jpg/100x100bb.jpg",
+                "genres": [
+                    {
+                        "genreId": "6",
+                        "name": "Country",
+                        "url": "https://itunes.apple.com/gb/genre/id6"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/gb/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/gb/album/a-bar-song-tipsy/1737085577?i=1737085899"
+            },
+            {
+                "artistName": "Sonny Fodera, Jazzy & D.O.D",
+                "id": "1753774219",
+                "name": "Somedays",
+                "releaseDate": "2024-07-26",
+                "kind": "songs",
+                "artistId": "324128050",
+                "artistUrl": "https://music.apple.com/gb/artist/sonny-fodera/324128050",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/05/ed/1b/05ed1b55-dd04-fb9c-e7fb-8d8505916ed1/085365288423.jpg/100x100bb.jpg",
+                "genres": [
+                    {
+                        "genreId": "17",
+                        "name": "Dance",
+                        "url": "https://itunes.apple.com/gb/genre/id17"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/gb/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/gb/album/somedays/1753774091?i=1753774219"
+            },
+            {
+                "artistName": "Chase & Status & Stormzy",
+                "id": "1760321012",
+                "name": "BACKBONE",
+                "releaseDate": "2024-08-08",
+                "kind": "songs",
+                "artistId": "121546679",
+                "artistUrl": "https://music.apple.com/gb/artist/chase-status/121546679",
+                "contentAdvisoryRating": "Explict",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6b/97/26/6b972600-cfaa-b1ae-e7b2-707d4a80ee70/24UMGIM76734.rgb.jpg/100x100bb.jpg",
+                "genres": [
+                    {
+                        "genreId": "17",
+                        "name": "Dance",
+                        "url": "https://itunes.apple.com/gb/genre/id17"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/gb/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/gb/album/backbone/1760321001?i=1760321012"
+            },
+            {
+                "artistName": "Post Malone",
+                "id": "1744439049",
+                "name": "I Had Some Help (feat. Morgan Wallen)",
+                "releaseDate": "2024-05-10",
+                "kind": "songs",
+                "artistId": "966309175",
+                "artistUrl": "https://music.apple.com/gb/artist/post-malone/966309175",
+                "contentAdvisoryRating": "Explict",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e1/b7/09/e1b7098f-d6e1-2b18-fd6f-8390110908eb/24UMGIM50612.rgb.jpg/100x100bb.jpg",
+                "genres": [
+                    {
+                        "genreId": "6",
+                        "name": "Country",
+                        "url": "https://itunes.apple.com/gb/genre/id6"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/gb/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/gb/album/i-had-some-help-feat-morgan-wallen/1744439045?i=1744439049"
+            }
+        ]
+    }
+}

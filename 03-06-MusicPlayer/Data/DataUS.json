@@ -1,0 +1,260 @@
+{
+    "feed": {
+        "title": "Top Songs",
+        "id": "https://rss.applemarketingtools.com/api/v2/us/music/most-played/10/songs.json",
+        "author": {
+            "name": "Apple",
+            "url": "https://www.apple.com/"
+        },
+        "links": [
+            {
+                "self": "https://rss.applemarketingtools.com/api/v2/us/music/most-played/10/songs.json"
+            }
+        ],
+        "copyright": "Copyright © 2024 Apple Inc. All rights reserved.",
+        "country": "us",
+        "icon": "https://www.apple.com/favicon.ico",
+        "updated": "Tue, 24 Sep 2024 11:09:44 +0000",
+        "results": [
+            {
+                "artistName": "Future",
+                "id": "1767829573",
+                "name": "LIL DEMON",
+                "releaseDate": "2024-09-20",
+                "kind": "songs",
+                "artistId": "128050210",
+                "artistUrl": "https://music.apple.com/us/artist/future/128050210",
+                "contentAdvisoryRating": "Explict",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/4d/60/754d6037-096b-1467-5e86-292d4bf12a1f/196872461367.jpg/100x100bb.jpg",
+                "genres": [
+                    {
+                        "genreId": "18",
+                        "name": "Hip-Hop/Rap",
+                        "url": "https://itunes.apple.com/us/genre/id18"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/us/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/us/album/lil-demon/1767829562?i=1767829573"
+            },
+            {
+                "artistName": "Future",
+                "id": "1767829565",
+                "name": "TEFLON DON",
+                "releaseDate": "2024-09-20",
+                "kind": "songs",
+                "artistId": "128050210",
+                "artistUrl": "https://music.apple.com/us/artist/future/128050210",
+                "contentAdvisoryRating": "Explict",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/4d/60/754d6037-096b-1467-5e86-292d4bf12a1f/196872461367.jpg/100x100bb.jpg",
+                "genres": [
+                    {
+                        "genreId": "18",
+                        "name": "Hip-Hop/Rap",
+                        "url": "https://itunes.apple.com/us/genre/id18"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/us/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/us/album/teflon-don/1767829562?i=1767829565"
+            },
+            {
+                "artistName": "Future",
+                "id": "1767829653",
+                "name": "TOO FAST",
+                "releaseDate": "2024-09-20",
+                "kind": "songs",
+                "artistId": "128050210",
+                "artistUrl": "https://music.apple.com/us/artist/future/128050210",
+                "contentAdvisoryRating": "Explict",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/4d/60/754d6037-096b-1467-5e86-292d4bf12a1f/196872461367.jpg/100x100bb.jpg",
+                "genres": [
+                    {
+                        "genreId": "18",
+                        "name": "Hip-Hop/Rap",
+                        "url": "https://itunes.apple.com/us/genre/id18"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/us/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/us/album/too-fast/1767829562?i=1767829653"
+            },
+            {
+                "artistName": "Future",
+                "id": "1767829641",
+                "name": "SKI",
+                "releaseDate": "2024-09-20",
+                "kind": "songs",
+                "artistId": "128050210",
+                "artistUrl": "https://music.apple.com/us/artist/future/128050210",
+                "contentAdvisoryRating": "Explict",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/4d/60/754d6037-096b-1467-5e86-292d4bf12a1f/196872461367.jpg/100x100bb.jpg",
+                "genres": [
+                    {
+                        "genreId": "18",
+                        "name": "Hip-Hop/Rap",
+                        "url": "https://itunes.apple.com/us/genre/id18"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/us/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/us/album/ski/1767829562?i=1767829641"
+            },
+            {
+                "artistName": "Future",
+                "id": "1767829652",
+                "name": "PLUTOSKI",
+                "releaseDate": "2024-09-20",
+                "kind": "songs",
+                "artistId": "128050210",
+                "artistUrl": "https://music.apple.com/us/artist/future/128050210",
+                "contentAdvisoryRating": "Explict",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/4d/60/754d6037-096b-1467-5e86-292d4bf12a1f/196872461367.jpg/100x100bb.jpg",
+                "genres": [
+                    {
+                        "genreId": "18",
+                        "name": "Hip-Hop/Rap",
+                        "url": "https://itunes.apple.com/us/genre/id18"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/us/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/us/album/plutoski/1767829562?i=1767829652"
+            },
+            {
+                "artistName": "Future",
+                "id": "1767829655",
+                "name": "OCEAN",
+                "releaseDate": "2024-09-20",
+                "kind": "songs",
+                "artistId": "128050210",
+                "artistUrl": "https://music.apple.com/us/artist/future/128050210",
+                "contentAdvisoryRating": "Explict",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/4d/60/754d6037-096b-1467-5e86-292d4bf12a1f/196872461367.jpg/100x100bb.jpg",
+                "genres": [
+                    {
+                        "genreId": "18",
+                        "name": "Hip-Hop/Rap",
+                        "url": "https://itunes.apple.com/us/genre/id18"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/us/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/us/album/ocean/1767829562?i=1767829655"
+            },
+            {
+                "artistName": "Future",
+                "id": "1767829644",
+                "name": "READY TO COOK UP",
+                "releaseDate": "2024-09-20",
+                "kind": "songs",
+                "artistId": "128050210",
+                "artistUrl": "https://music.apple.com/us/artist/future/128050210",
+                "contentAdvisoryRating": "Explict",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/4d/60/754d6037-096b-1467-5e86-292d4bf12a1f/196872461367.jpg/100x100bb.jpg",
+                "genres": [
+                    {
+                        "genreId": "18",
+                        "name": "Hip-Hop/Rap",
+                        "url": "https://itunes.apple.com/us/genre/id18"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/us/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/us/album/ready-to-cook-up/1767829562?i=1767829644"
+            },
+            {
+                "artistName": "Lady Gaga & Bruno Mars",
+                "id": "1762656732",
+                "name": "Die With A Smile",
+                "releaseDate": "2024-08-16",
+                "kind": "songs",
+                "artistId": "277293880",
+                "artistUrl": "https://music.apple.com/us/artist/lady-gaga/277293880",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/11/ae/f2/11aef294-f57c-bab9-c9fc-529162984e62/24UMGIM85348.rgb.jpg/100x100bb.jpg",
+                "genres": [
+                    {
+                        "genreId": "14",
+                        "name": "Pop",
+                        "url": "https://itunes.apple.com/us/genre/id14"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/us/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/us/album/die-with-a-smile/1762656724?i=1762656732"
+            },
+            {
+                "artistName": "Future",
+                "id": "1767829866",
+                "name": "BRAZZIER",
+                "releaseDate": "2024-09-20",
+                "kind": "songs",
+                "artistId": "128050210",
+                "artistUrl": "https://music.apple.com/us/artist/future/128050210",
+                "contentAdvisoryRating": "Explict",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/4d/60/754d6037-096b-1467-5e86-292d4bf12a1f/196872461367.jpg/100x100bb.jpg",
+                "genres": [
+                    {
+                        "genreId": "18",
+                        "name": "Hip-Hop/Rap",
+                        "url": "https://itunes.apple.com/us/genre/id18"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/us/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/us/album/brazzier/1767829562?i=1767829866"
+            },
+            {
+                "artistName": "Future",
+                "id": "1767829657",
+                "name": "PRESS THE BUTTON",
+                "releaseDate": "2024-09-20",
+                "kind": "songs",
+                "artistId": "128050210",
+                "artistUrl": "https://music.apple.com/us/artist/future/128050210",
+                "contentAdvisoryRating": "Explict",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/4d/60/754d6037-096b-1467-5e86-292d4bf12a1f/196872461367.jpg/100x100bb.jpg",
+                "genres": [
+                    {
+                        "genreId": "18",
+                        "name": "Hip-Hop/Rap",
+                        "url": "https://itunes.apple.com/us/genre/id18"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/us/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/us/album/press-the-button/1767829562?i=1767829657"
+            }
+        ]
+    }
+}

@@ -1,0 +1,251 @@
+{
+    "feed": {
+        "title": "トップソング",
+        "id": "https://rss.applemarketingtools.com/api/v2/jp/music/most-played/10/songs.json",
+        "author": {
+            "name": "Apple",
+            "url": "https://www.apple.com/"
+        },
+        "links": [
+            {
+                "self": "https://rss.applemarketingtools.com/api/v2/jp/music/most-played/10/songs.json"
+            }
+        ],
+        "copyright": "Copyright © 2024 Apple Inc. All rights reserved.",
+        "country": "jp",
+        "icon": "https://www.apple.com/favicon.ico",
+        "updated": "Tue, 24 Sep 2024 11:12:00 +0000",
+        "results": [
+            {
+                "artistName": "Mrs. GREEN APPLE",
+                "id": "1739088799",
+                "name": "ライラック",
+                "releaseDate": "2024-04-12",
+                "kind": "songs",
+                "artistId": "962221033",
+                "artistUrl": "https://music.apple.com/jp/artist/mrs-green-apple/962221033",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4c/3b/b2/4c3bb247-3be8-0c57-aa9a-7f1775a7b7a8/24UMGIM32931.rgb.jpg/100x100bb.jpg",
+                "genres": [
+                    {
+                        "genreId": "21",
+                        "name": "ロック",
+                        "url": "https://itunes.apple.com/jp/genre/id21"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "ミュージック",
+                        "url": "https://itunes.apple.com/jp/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/jp/album/%E3%83%A9%E3%82%A4%E3%83%A9%E3%83%83%E3%82%AF/1739088465?i=1739088799"
+            },
+            {
+                "artistName": "back number",
+                "id": "1755670579",
+                "name": "新しい恋人達に",
+                "releaseDate": "2024-07-15",
+                "kind": "songs",
+                "artistId": "302361237",
+                "artistUrl": "https://music.apple.com/jp/artist/back-number/302361237",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c3/62/48/c362483c-b58c-ff18-2333-3b787440d947/24UMGIM65283.rgb.jpg/100x100bb.jpg",
+                "genres": [
+                    {
+                        "genreId": "27",
+                        "name": "J-Pop",
+                        "url": "https://itunes.apple.com/jp/genre/id27"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "ミュージック",
+                        "url": "https://itunes.apple.com/jp/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/jp/album/%E6%96%B0%E3%81%97%E3%81%84%E6%81%8B%E4%BA%BA%E9%81%94%E3%81%AB/1755670154?i=1755670579"
+            },
+            {
+                "artistName": "Mrs. GREEN APPLE",
+                "id": "1681600508",
+                "name": "ケセラセラ",
+                "releaseDate": "2023-04-25",
+                "kind": "songs",
+                "artistId": "962221033",
+                "artistUrl": "https://music.apple.com/jp/artist/mrs-green-apple/962221033",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/25/22/db/2522db04-1404-086a-c8a2-253484030b36/23UMGIM37150.rgb.jpg/100x100bb.jpg",
+                "genres": [
+                    {
+                        "genreId": "21",
+                        "name": "ロック",
+                        "url": "https://itunes.apple.com/jp/genre/id21"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "ミュージック",
+                        "url": "https://itunes.apple.com/jp/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/jp/album/%E3%82%B1%E3%82%BB%E3%83%A9%E3%82%BB%E3%83%A9/1681600496?i=1681600508"
+            },
+            {
+                "artistName": "Mrs. GREEN APPLE",
+                "id": "1760670654",
+                "name": "familie",
+                "releaseDate": "2024-08-09",
+                "kind": "songs",
+                "artistId": "962221033",
+                "artistUrl": "https://music.apple.com/jp/artist/mrs-green-apple/962221033",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/34/5f/f6/345ff67f-c93d-108b-9f74-db8949fe3d63/24UMGIM76510.rgb.jpg/100x100bb.jpg",
+                "genres": [
+                    {
+                        "genreId": "21",
+                        "name": "ロック",
+                        "url": "https://itunes.apple.com/jp/genre/id21"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "ミュージック",
+                        "url": "https://itunes.apple.com/jp/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/jp/album/familie/1760670508?i=1760670654"
+            },
+            {
+                "artistName": "Mrs. GREEN APPLE",
+                "id": "1408505264",
+                "name": "青と夏",
+                "releaseDate": "2018-07-12",
+                "kind": "songs",
+                "artistId": "962221033",
+                "artistUrl": "https://music.apple.com/jp/artist/mrs-green-apple/962221033",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/34/27/08/3427087f-2d39-4847-9b19-052dd3589014/18UMGIM36633.rgb.jpg/100x100bb.jpg",
+                "genres": [
+                    {
+                        "genreId": "21",
+                        "name": "ロック",
+                        "url": "https://itunes.apple.com/jp/genre/id21"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "ミュージック",
+                        "url": "https://itunes.apple.com/jp/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/jp/album/%E9%9D%92%E3%81%A8%E5%A4%8F/1408505088?i=1408505264"
+            },
+            {
+                "artistName": "Omoinotake",
+                "id": "1725229931",
+                "name": "幾億光年",
+                "releaseDate": "2024-01-24",
+                "kind": "songs",
+                "artistId": "1185371943",
+                "artistUrl": "https://music.apple.com/jp/artist/omoinotake/1185371943",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/7e/e5/e6/7ee5e6f7-9c93-f121-fca0-e371dbce8f6e/4547366665246.jpg/100x100bb.jpg",
+                "genres": [
+                    {
+                        "genreId": "27",
+                        "name": "J-Pop",
+                        "url": "https://itunes.apple.com/jp/genre/id27"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "ミュージック",
+                        "url": "https://itunes.apple.com/jp/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/jp/album/%E5%B9%BE%E5%84%84%E5%85%89%E5%B9%B4/1725229930?i=1725229931"
+            },
+            {
+                "artistName": "Mrs. GREEN APPLE",
+                "id": "1648865575",
+                "name": "Soranji",
+                "releaseDate": "2022-10-18",
+                "kind": "songs",
+                "artistId": "962221033",
+                "artistUrl": "https://music.apple.com/jp/artist/mrs-green-apple/962221033",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/e1/ec/d4/e1ecd4b4-4f2f-c49e-fa95-958c6b4cf7ab/22UM1IM16537.rgb.jpg/100x100bb.jpg",
+                "genres": [
+                    {
+                        "genreId": "21",
+                        "name": "ロック",
+                        "url": "https://itunes.apple.com/jp/genre/id21"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "ミュージック",
+                        "url": "https://itunes.apple.com/jp/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/jp/album/soranji/1648865573?i=1648865575"
+            },
+            {
+                "artistName": "Vaundy",
+                "id": "1706832137",
+                "name": "怪獣の花唄",
+                "releaseDate": "2020-05-11",
+                "kind": "songs",
+                "artistId": "1487570516",
+                "artistUrl": "https://music.apple.com/jp/artist/vaundy/1487570516",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/09/89/00/09890002-b2de-3637-39b2-f6c2d34d0e93/197189854859.jpg/100x100bb.jpg",
+                "genres": [
+                    {
+                        "genreId": "21",
+                        "name": "ロック",
+                        "url": "https://itunes.apple.com/jp/genre/id21"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "ミュージック",
+                        "url": "https://itunes.apple.com/jp/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/jp/album/%E6%80%AA%E7%8D%A3%E3%81%AE%E8%8A%B1%E5%94%84/1706831732?i=1706832137"
+            },
+            {
+                "artistName": "Creepy Nuts",
+                "id": "1720332181",
+                "name": "Bling-Bang-Bang-Born",
+                "releaseDate": "2024-01-07",
+                "kind": "songs",
+                "artistId": "678140651",
+                "artistUrl": "https://music.apple.com/jp/artist/creepy-nuts/678140651",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/12/81/dc/1281dc28-48e6-5ff7-642d-6cf4d487d9e0/4547366660890.jpg/100x100bb.jpg",
+                "genres": [
+                    {
+                        "genreId": "18",
+                        "name": "ヒップホップ／ラップ",
+                        "url": "https://itunes.apple.com/jp/genre/id18"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "ミュージック",
+                        "url": "https://itunes.apple.com/jp/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/jp/album/bling-bang-bang-born/1720332180?i=1720332181"
+            },
+            {
+                "artistName": "Mrs. GREEN APPLE",
+                "id": "1408505419",
+                "name": "点描の唄 (feat. 井上苑子)",
+                "releaseDate": "2018-08-01",
+                "kind": "songs",
+                "artistId": "962221033",
+                "artistUrl": "https://music.apple.com/jp/artist/mrs-green-apple/962221033",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/34/27/08/3427087f-2d39-4847-9b19-052dd3589014/18UMGIM36633.rgb.jpg/100x100bb.jpg",
+                "genres": [
+                    {
+                        "genreId": "21",
+                        "name": "ロック",
+                        "url": "https://itunes.apple.com/jp/genre/id21"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "ミュージック",
+                        "url": "https://itunes.apple.com/jp/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/jp/album/%E7%82%B9%E6%8F%8F%E3%81%AE%E5%94%84-feat-%E4%BA%95%E4%B8%8A%E8%8B%91%E5%AD%90/1408505088?i=1408505419"
+            }
+        ]
+    }
+}

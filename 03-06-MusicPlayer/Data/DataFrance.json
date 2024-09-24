@@ -1,0 +1,219 @@
+{
+    "feed": {
+        "title": "Classement des morceaux",
+        "id": "https://rss.applemarketingtools.com/api/v2/fr/music/most-played/10/songs.json",
+        "author": {
+            "name": "Apple",
+            "url": "https://www.apple.com/"
+        },
+        "links": [
+            {
+                "self": "https://rss.applemarketingtools.com/api/v2/fr/music/most-played/10/songs.json"
+            }
+        ],
+        "copyright": "Copyright © 2024 Apple Inc. All rights reserved.",
+        "country": "fr",
+        "icon": "https://www.apple.com/favicon.ico",
+        "updated": "Tue, 24 Sep 2024 11:11:24 +0000",
+        "results": [
+            {
+                "artistName": "Tiakola, Genezio & Prototype",
+                "id": "1766323045",
+                "name": "PONA NINI",
+                "releaseDate": "2023-09-29",
+                "kind": "songs",
+                "artistId": "1334731593",
+                "artistUrl": "https://music.apple.com/fr/artist/tiakola/1334731593",
+                "contentAdvisoryRating": "Explict",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/97/aa/fa/97aafa92-339c-685f-4750-eae886de5c04/5021732479280.jpg/100x100bb.jpg",
+                "genres": [
+                    {
+                        "name": "Hip-hop/Rap"
+                    },
+                    {
+                        "name": "Musique"
+                    }
+                ],
+                "url": "https://music.apple.com/fr/album/pona-nini/1766322908?i=1766323045"
+            },
+            {
+                "artistName": "Tiakola, Rsko & Hamza",
+                "id": "1768313856",
+                "name": "1h55",
+                "releaseDate": "2023-09-29",
+                "kind": "songs",
+                "artistId": "1334731593",
+                "artistUrl": "https://music.apple.com/fr/artist/tiakola/1334731593",
+                "contentAdvisoryRating": "Explict",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/65/b8/2165b8b4-820f-d718-f602-b2990497a07e/5021732479280.jpg/100x100bb.jpg",
+                "genres": [
+                    {
+                        "name": "Hip-hop/Rap"
+                    },
+                    {
+                        "name": "Musique"
+                    }
+                ],
+                "url": "https://music.apple.com/fr/album/1h55/1768313504?i=1768313856"
+            },
+            {
+                "artistName": "Tiakola, Ryflo & Oskoow",
+                "id": "1764936550",
+                "name": "MANON B",
+                "releaseDate": "2023-09-29",
+                "kind": "songs",
+                "artistId": "1334731593",
+                "artistUrl": "https://music.apple.com/fr/artist/tiakola/1334731593",
+                "contentAdvisoryRating": "Explict",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/90/4f/27/904f27e6-cd74-cb9d-c9a9-8d7ad562a6cf/5021732476425.jpg/100x100bb.jpg",
+                "genres": [
+                    {
+                        "name": "Hip-hop/Rap"
+                    },
+                    {
+                        "name": "Musique"
+                    }
+                ],
+                "url": "https://music.apple.com/fr/album/manon-b/1764936548?i=1764936550"
+            },
+            {
+                "artistName": "Tiakola, SDM & Liim's",
+                "id": "1766323234",
+                "name": "PLAISIR NOCIF",
+                "releaseDate": "2023-09-29",
+                "kind": "songs",
+                "artistId": "1334731593",
+                "artistUrl": "https://music.apple.com/fr/artist/tiakola/1334731593",
+                "contentAdvisoryRating": "Explict",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/97/aa/fa/97aafa92-339c-685f-4750-eae886de5c04/5021732479280.jpg/100x100bb.jpg",
+                "genres": [
+                    {
+                        "name": "Hip-hop/Rap"
+                    },
+                    {
+                        "name": "Musique"
+                    }
+                ],
+                "url": "https://music.apple.com/fr/album/plaisir-nocif/1766322908?i=1766323234"
+            },
+            {
+                "artistName": "Tiakola, Niska & La Mano 1.9",
+                "id": "1766323048",
+                "name": "G.A.N.G",
+                "releaseDate": "2023-09-29",
+                "kind": "songs",
+                "artistId": "1334731593",
+                "artistUrl": "https://music.apple.com/fr/artist/tiakola/1334731593",
+                "contentAdvisoryRating": "Explict",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/97/aa/fa/97aafa92-339c-685f-4750-eae886de5c04/5021732479280.jpg/100x100bb.jpg",
+                "genres": [
+                    {
+                        "name": "Hip-hop/Rap"
+                    },
+                    {
+                        "name": "Musique"
+                    }
+                ],
+                "url": "https://music.apple.com/fr/album/g-a-n-g/1766322908?i=1766323048"
+            },
+            {
+                "artistName": "GIMS",
+                "id": "1757643303",
+                "name": "SOIS PAS TIMIDE",
+                "releaseDate": "2024-07-19",
+                "kind": "songs",
+                "artistId": "458659054",
+                "artistUrl": "https://music.apple.com/fr/artist/gims/458659054",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/71/45/19/714519f5-40a6-b81a-d099-56512c4e4914/cover.jpg/100x100bb.jpg",
+                "genres": [
+                    {
+                        "name": "Hip-hop/Rap"
+                    },
+                    {
+                        "name": "Musique"
+                    }
+                ],
+                "url": "https://music.apple.com/fr/album/sois-pas-timide/1757643293?i=1757643303"
+            },
+            {
+                "artistName": "GIMS & DYSTINCT",
+                "id": "1744575457",
+                "name": "SPIDER",
+                "releaseDate": "2024-05-10",
+                "kind": "songs",
+                "artistId": "458659054",
+                "artistUrl": "https://music.apple.com/fr/artist/gims/458659054",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/67/82/df/6782df30-18ea-9803-e2d3-a1d66a040f08/cover.jpg/100x100bb.jpg",
+                "genres": [
+                    {
+                        "name": "Hip-hop/Rap"
+                    },
+                    {
+                        "name": "Musique"
+                    }
+                ],
+                "url": "https://music.apple.com/fr/album/spider/1744575447?i=1744575457"
+            },
+            {
+                "artistName": "Tiakola & Merveille",
+                "id": "1766323224",
+                "name": "PROTECT",
+                "releaseDate": "2023-09-29",
+                "kind": "songs",
+                "artistId": "1334731593",
+                "artistUrl": "https://music.apple.com/fr/artist/tiakola/1334731593",
+                "contentAdvisoryRating": "Explict",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/97/aa/fa/97aafa92-339c-685f-4750-eae886de5c04/5021732479280.jpg/100x100bb.jpg",
+                "genres": [
+                    {
+                        "name": "Hip-hop/Rap"
+                    },
+                    {
+                        "name": "Musique"
+                    }
+                ],
+                "url": "https://music.apple.com/fr/album/protect/1766322908?i=1766323224"
+            },
+            {
+                "artistName": "Tiakola & Ronisia",
+                "id": "1766323792",
+                "name": "Y.J (C'EST KO)",
+                "releaseDate": "2023-09-29",
+                "kind": "songs",
+                "artistId": "1334731593",
+                "artistUrl": "https://music.apple.com/fr/artist/tiakola/1334731593",
+                "contentAdvisoryRating": "Explict",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/97/aa/fa/97aafa92-339c-685f-4750-eae886de5c04/5021732479280.jpg/100x100bb.jpg",
+                "genres": [
+                    {
+                        "name": "Hip-hop/Rap"
+                    },
+                    {
+                        "name": "Musique"
+                    }
+                ],
+                "url": "https://music.apple.com/fr/album/y-j-cest-ko/1766322908?i=1766323792"
+            },
+            {
+                "artistName": "Leto",
+                "id": "1756506061",
+                "name": "J’crois qu’ils ont pas compris",
+                "releaseDate": "2024-07-17",
+                "kind": "songs",
+                "artistId": "301345693",
+                "artistUrl": "https://music.apple.com/fr/artist/leto/301345693",
+                "contentAdvisoryRating": "Explict",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/35/af/15/35af1501-44d5-4334-4f43-622e0262e070/5021732437006.jpg/100x100bb.jpg",
+                "genres": [
+                    {
+                        "name": "Hip-hop/Rap"
+                    },
+                    {
+                        "name": "Musique"
+                    }
+                ],
+                "url": "https://music.apple.com/fr/album/jcrois-quils-ont-pas-compris/1756506054?i=1756506061"
+            }
+        ]
+    }
+}

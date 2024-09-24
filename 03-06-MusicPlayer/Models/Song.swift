@@ -6,18 +6,20 @@
 //
 
 import Foundation
-import SwiftData
 
-@Model
-class Song: Identifiable {
-    let id: String = UUID().uuidString
-    let title: String
-    let artist: String
-    let artworkURL: String
-    
-    init(title: String, artist: String, artworkURL: String) {
-        self.title = title
-        self.artist = artist
-        self.artworkURL = artworkURL
-    }
+struct Response: Codable {
+    let feed: Feed
 }
+
+struct Feed: Codable {
+    let results: [Song]
+}
+
+
+struct Song: Codable, Identifiable {
+    let id: String
+    let name: String
+    let artistName: String
+    let artworkUrl100: String
+    let url: String
+ }

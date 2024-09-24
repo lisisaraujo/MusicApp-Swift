@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import SwiftData
 
 struct SongListItemView: View {
     
@@ -14,18 +13,36 @@ struct SongListItemView: View {
     
     var body: some View {
         HStack(spacing: 16) {
-            Image(song.artworkURL)
-                .resizable()
-                .scaledToFit()
-                .frame(width: 80, height: 80)
-                .clipShape(RoundedRectangle(cornerRadius: 12))
-                .shadow(radius: 4)
+            AsyncImage(url: URL(string: song.artworkUrl100)) { phase in
+                switch phase {
+                case .success(let image):
+                    image
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 80, height: 80)
+                        .clipShape(RoundedRectangle(cornerRadius: 12))
+                        .shadow(radius: 4)
+                case .failure:
+                    Image(systemName: "photo") // Placeholder image in case of failure
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 80, height: 80)
+                        .clipShape(RoundedRectangle(cornerRadius: 12))
+                        .shadow(radius: 4)
+                case .empty:
+                    ProgressView() // Loading indicator while the image is being fetched
+                        .frame(width: 80, height: 80)
+                @unknown default:
+                    EmptyView() // Fallback for future cases
+                }
+            }
+            
             VStack(alignment: .leading, spacing: 4) {
-                Text(song.title)
+                Text(song.name)
                     .font(.headline)
                     .foregroundColor(.primary)
                 
-                Text(song.artist)
+                Text(song.artistName)
                     .font(.subheadline)
                     .foregroundColor(.secondary)
             }
@@ -36,15 +53,5 @@ struct SongListItemView: View {
 }
 
 #Preview {
-    let configuration = ModelConfiguration(isStoredInMemoryOnly: true)
-    let container = try! ModelContainer(for: Song.self, configurations: configuration)
-
-    let sampleSong = Song(title: "Lost in Time", artist: "The Wanderers", artworkURL: "artwork1")
-
-    container.mainContext.insert(sampleSong)
-
-    return SongListItemView(song: sampleSong)
-        .modelContainer(container)
-    
-    
+   SongListItemView(song: Song(id: "1766137051", name: "The Emptiness Machine", artistName: "LINKIN PARK", artworkUrl100: "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/21/cf/6921cff3-7074-118a-ece2-4012450e6c75/093624839811.jpg/100x100bb.jpg", url: "#"))
 }
