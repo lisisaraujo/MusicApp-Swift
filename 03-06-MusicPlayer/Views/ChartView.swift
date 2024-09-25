@@ -14,10 +14,10 @@ struct ChartView: View {
     @State private var currentSong: Song? = Song(id: "1766137051", name: "The Emptiness Machine", artistName: "LINKIN PARK", artworkUrl100: "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/21/cf/6921cff3-7074-118a-ece2-4012450e6c75/093624839811.jpg/100x100bb.jpg", url: "#")
     
     enum SelectedCountry: String, CaseIterable {
-        case germany = "Germany"
-        case us = "US"
-        case uk = "UK"
-        case japan = "Japan"
+        case germany = "de"
+        case us = "us"
+        case uk = "gb"
+        case japan = "jp"
     }
     
     var body: some View {
@@ -38,7 +38,7 @@ struct ChartView: View {
               
 
                 List(songsList) { song in
-                    NavigationLink(destination: SongView(song: song)) { 
+                    NavigationLink(destination: SongDetailView(song: song)) {
                         SongListItemView(song: song)
                     }
                 }
@@ -46,25 +46,39 @@ struct ChartView: View {
                 MiniPlayerView(currentSong: $currentSong)
             }
             .onAppear {
-                fetchData()
+                fetchAPIData()
             }
-            .onChange(of: selectedCountry) { _ in
-                fetchData() 
+            .onChange(of: selectedCountry) { newValue in
+                fetchAPIData()
             }
         }
     }
     
-    private func fetchData() {
-        let fetchedSongs = LocalDataService.shared.fetchAllSongs(for: selectedCountry.rawValue.lowercased())
-        
-        if fetchedSongs.isEmpty {
-            print("No songs found.")
-        } else {
-            print("Loaded \(fetchedSongs.count) songs.")
+    private func fetchAPIData() {
+        Task {
+            do {
+                songsList = try await getSongs(countryCode: selectedCountry.rawValue)
+                print(songsList)
+            } catch let error as HTTPError {
+                print(error.message)
+            } catch {
+                print(error)
+            }
         }
-        
-        songsList = fetchedSongs
     }
+    
+//    private func fetchData() {
+//        let fetchedSongs = LocalDataService.shared.fetchAllSongs(for: selectedCountry.rawValue.lowercased())
+//        
+//        if fetchedSongs.isEmpty {
+//            print("No songs found.")
+//        } else {
+//            print("Loaded \(fetchedSongs.count) songs.")
+//        }
+//        
+//        songsList = fetchedSongs
+//    }
+
 }
 
 #Preview {

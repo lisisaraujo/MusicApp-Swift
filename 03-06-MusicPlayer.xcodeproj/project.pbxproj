@@ -11,7 +11,7 @@
 		A712BFF82CA15E68005E786D /* SongListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A712BFF72CA15E68005E786D /* SongListItemView.swift */; };
 		A712BFFA2CA15E77005E786D /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = A712BFF92CA15E77005E786D /* Song.swift */; };
 		A712BFFD2CA1642F005E786D /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A712BFFC2CA1642F005E786D /* Utils.swift */; };
-		A712C0012CA16B27005E786D /* SongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A712C0002CA16B27005E786D /* SongView.swift */; };
+		A712C0012CA16B27005E786D /* SongDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A712C0002CA16B27005E786D /* SongDetailView.swift */; };
 		A712C0052CA2B1DF005E786D /* DataGermany.json in Resources */ = {isa = PBXBuildFile; fileRef = A712C0042CA2B1DF005E786D /* DataGermany.json */; };
 		A712C0082CA2C832005E786D /* LocalDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A712C0072CA2C832005E786D /* LocalDataService.swift */; };
 		A712C00B2CA2D5A5005E786D /* DataUS.json in Resources */ = {isa = PBXBuildFile; fileRef = A712C00A2CA2D5A5005E786D /* DataUS.json */; };
@@ -21,6 +21,9 @@
 		A712C0132CA2DCAE005E786D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A712C0122CA2DCAE005E786D /* HomeView.swift */; };
 		A712C0152CA2DD75005E786D /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A712C0142CA2DD75005E786D /* SearchView.swift */; };
 		A712C0172CA2DF33005E786D /* MiniPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A712C0162CA2DF33005E786D /* MiniPlayerView.swift */; };
+		A712C01B2CA41E93005E786D /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A712C01A2CA41E93005E786D /* APIService.swift */; };
+		A712C01D2CA448DC005E786D /* ItunesSongDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A712C01C2CA448DC005E786D /* ItunesSongDetailView.swift */; };
+		A712C01F2CA449D5005E786D /* ItunesSongListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A712C01E2CA449D5005E786D /* ItunesSongListItemView.swift */; };
 		DB9E9E302CA155A900B47DFA /* _3_06_MusicPlayerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9E9E2F2CA155A900B47DFA /* _3_06_MusicPlayerApp.swift */; };
 		DB9E9E342CA155AD00B47DFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB9E9E332CA155AD00B47DFA /* Assets.xcassets */; };
 		DB9E9E372CA155AD00B47DFA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB9E9E362CA155AD00B47DFA /* Preview Assets.xcassets */; };
@@ -31,7 +34,7 @@
 		A712BFF72CA15E68005E786D /* SongListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongListItemView.swift; sourceTree = "<group>"; };
 		A712BFF92CA15E77005E786D /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		A712BFFC2CA1642F005E786D /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
-		A712C0002CA16B27005E786D /* SongView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongView.swift; sourceTree = "<group>"; };
+		A712C0002CA16B27005E786D /* SongDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongDetailView.swift; sourceTree = "<group>"; };
 		A712C0042CA2B1DF005E786D /* DataGermany.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DataGermany.json; sourceTree = "<group>"; };
 		A712C0072CA2C832005E786D /* LocalDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDataService.swift; sourceTree = "<group>"; };
 		A712C00A2CA2D5A5005E786D /* DataUS.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DataUS.json; sourceTree = "<group>"; };
@@ -41,6 +44,9 @@
 		A712C0122CA2DCAE005E786D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A712C0142CA2DD75005E786D /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		A712C0162CA2DF33005E786D /* MiniPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPlayerView.swift; sourceTree = "<group>"; };
+		A712C01A2CA41E93005E786D /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		A712C01C2CA448DC005E786D /* ItunesSongDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesSongDetailView.swift; sourceTree = "<group>"; };
+		A712C01E2CA449D5005E786D /* ItunesSongListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesSongListItemView.swift; sourceTree = "<group>"; };
 		DB9E9E2C2CA155A900B47DFA /* 03-06-MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "03-06-MusicPlayer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB9E9E2F2CA155A900B47DFA /* _3_06_MusicPlayerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _3_06_MusicPlayerApp.swift; sourceTree = "<group>"; };
 		DB9E9E332CA155AD00B47DFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -71,10 +77,12 @@
 			children = (
 				A712BFF52CA15B67005E786D /* ChartView.swift */,
 				A712BFF72CA15E68005E786D /* SongListItemView.swift */,
-				A712C0002CA16B27005E786D /* SongView.swift */,
+				A712C0002CA16B27005E786D /* SongDetailView.swift */,
 				A712C0122CA2DCAE005E786D /* HomeView.swift */,
 				A712C0142CA2DD75005E786D /* SearchView.swift */,
 				A712C0162CA2DF33005E786D /* MiniPlayerView.swift */,
+				A712C01C2CA448DC005E786D /* ItunesSongDetailView.swift */,
+				A712C01E2CA449D5005E786D /* ItunesSongListItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -91,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				A712C0072CA2C832005E786D /* LocalDataService.swift */,
+				A712C01A2CA41E93005E786D /* APIService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -224,8 +233,11 @@
 				A712BFFD2CA1642F005E786D /* Utils.swift in Sources */,
 				A712C0152CA2DD75005E786D /* SearchView.swift in Sources */,
 				A712BFF82CA15E68005E786D /* SongListItemView.swift in Sources */,
+				A712C01F2CA449D5005E786D /* ItunesSongListItemView.swift in Sources */,
 				A712BFFA2CA15E77005E786D /* Song.swift in Sources */,
-				A712C0012CA16B27005E786D /* SongView.swift in Sources */,
+				A712C01B2CA41E93005E786D /* APIService.swift in Sources */,
+				A712C0012CA16B27005E786D /* SongDetailView.swift in Sources */,
+				A712C01D2CA448DC005E786D /* ItunesSongDetailView.swift in Sources */,
 				DB9E9E302CA155A900B47DFA /* _3_06_MusicPlayerApp.swift in Sources */,
 				A712C0132CA2DCAE005E786D /* HomeView.swift in Sources */,
 				A712C0082CA2C832005E786D /* LocalDataService.swift in Sources */,

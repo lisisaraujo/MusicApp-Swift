@@ -1,19 +1,18 @@
 //
-//  SongListItemView.swift
+//  ItunesSongListItemView.swift
 //  03-06-MusicPlayer
 //
-//  Created by Lisis Ruschel on 23.09.24.
+//  Created by Lisis Ruschel on 25.09.24.
 //
 
 import SwiftUI
 
-struct SongListItemView: View {
-    
-    var song: Song
+struct ItunesSongListItemView: View {
+    var song: Song2
     
     var body: some View {
         HStack(spacing: 16) {
-            AsyncImage(url: URL(string: song.artworkUrl100)) { phase in
+            AsyncImage(url: URL(string: song.artworkUrl!)) { phase in
                 switch phase {
                 case .success(let image):
                     image
@@ -40,11 +39,11 @@ struct SongListItemView: View {
             }
             
             VStack(alignment: .leading, spacing: 4) {
-                Text(song.name)
+                Text(song.title)
                     .font(.headline)
                     .foregroundColor(.primary)
                 
-                Text(song.artistName)
+                Text(song.artist)
                     .font(.subheadline)
                     .foregroundColor(.secondary)
             }
@@ -55,5 +54,11 @@ struct SongListItemView: View {
 }
 
 #Preview {
-   SongListItemView(song: Song(id: "1766137051", name: "The Emptiness Machine", artistName: "LINKIN PARK", artworkUrl100: "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/21/cf/6921cff3-7074-118a-ece2-4012450e6c75/093624839811.jpg/100x100bb.jpg", url: "#"))
+    ItunesSongListItemView(song: Song2(
+        id: 1766137051,
+        title: "The Emptiness Machine",
+        artist: "LINKIN PARK",
+        artworkUrl: "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/21/cf/6921cff3-7074-118a-ece2-4012450e6c75/093624839811.jpg/100x100bb.jpg",
+        trackViewUrl: "https://music.apple.com/us/album/the-emptiness-machine/1766137051?i=1766137052"
+    ))
 }
