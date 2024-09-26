@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SongListItemView: View {
     
-    var song: Song
+    var song: TopSong
     
     var body: some View {
         HStack(spacing: 16) {
@@ -55,5 +55,5 @@ struct SongListItemView: View {
 }
 
 #Preview {
-   SongListItemView(song: Song(id: "1766137051", name: "The Emptiness Machine", artistName: "LINKIN PARK", artworkUrl100: "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/21/cf/6921cff3-7074-118a-ece2-4012450e6c75/093624839811.jpg/100x100bb.jpg", url: "#"))
+   SongListItemView(song: TopSong(id: "1766137051", name: "The Emptiness Machine", artistName: "LINKIN PARK", artworkUrl100: "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/21/cf/6921cff3-7074-118a-ece2-4012450e6c75/093624839811.jpg/100x100bb.jpg", url: "#"))
 }

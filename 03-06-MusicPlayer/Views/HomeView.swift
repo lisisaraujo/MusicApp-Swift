@@ -21,7 +21,7 @@ struct HomeView: View {
             TabView(selection: $selectedTab) {
                 ChartView()
                     .tabItem {
-                        Label("Music", systemImage: "music.note")
+                        Label("Charts", systemImage: "chart.bar.fill")
                     }.tag(Tab.chart)
 
                 SearchView()

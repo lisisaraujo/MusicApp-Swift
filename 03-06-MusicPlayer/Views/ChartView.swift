@@ -9,9 +9,9 @@ import SwiftUI
 
 struct ChartView: View {
     
-    @State private var songsList: [Song] = []
+    @State private var songsList: [TopSong] = []
     @State private var selectedCountry: SelectedCountry = .germany
-    @State private var currentSong: Song? = Song(id: "1766137051", name: "The Emptiness Machine", artistName: "LINKIN PARK", artworkUrl100: "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/21/cf/6921cff3-7074-118a-ece2-4012450e6c75/093624839811.jpg/100x100bb.jpg", url: "#")
+    @State private var currentSong: TopSong? = TopSong(id: "1766137051", name: "The Emptiness Machine", artistName: "LINKIN PARK", artworkUrl100: "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/21/cf/6921cff3-7074-118a-ece2-4012450e6c75/093624839811.jpg/100x100bb.jpg", url: "#")
     
     enum SelectedCountry: String, CaseIterable {
         case germany = "de"
@@ -38,7 +38,7 @@ struct ChartView: View {
               
 
                 List(songsList) { song in
-                    NavigationLink(destination: SongDetailView(song: song)) {
+                    NavigationLink(destination: SongDetailView(topSong: song)) {
                         SongListItemView(song: song)
                     }
                 }

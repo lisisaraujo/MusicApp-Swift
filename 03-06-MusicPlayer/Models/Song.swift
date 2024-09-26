@@ -7,16 +7,17 @@
 
 import Foundation
 
+// top songs data model
 struct Response: Codable {
     let feed: Feed
 }
 
 struct Feed: Codable {
-    let results: [Song]
+    let results: [TopSong]
 }
 
 
-struct Song: Codable, Identifiable {
+struct TopSong: Codable, Identifiable {
     let id: String
     let name: String
     let artistName: String
@@ -24,18 +25,19 @@ struct Song: Codable, Identifiable {
     let url: String
  }
 
-// itunes structs
+// itunes data model
 
 struct ItunesResponse: Codable {
-    let results: [Song2]
+    let results: [iTunesSong]
 }
 
-struct Song2: Identifiable, Codable {
+struct iTunesSong: Identifiable, Codable {
     let id: Int
     let title: String
     let artist: String
     let artworkUrl: String?
     let trackViewUrl: String?
+    let previewUrl: String?
 
     enum CodingKeys: String, CodingKey {
         case id = "trackId"
@@ -43,5 +45,6 @@ struct Song2: Identifiable, Codable {
         case artist = "artistName"
         case artworkUrl = "artworkUrl100"
         case trackViewUrl
+        case previewUrl
     }
 }

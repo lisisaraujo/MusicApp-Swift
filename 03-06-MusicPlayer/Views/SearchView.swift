@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SearchView: View {
     @State private var searchText = ""
-    @State private var songsList: [Song2] = []
+    @State private var songsList: [iTunesSong] = []
     @State private var errorMessage: String?
     
 
@@ -34,7 +34,7 @@ struct SearchView: View {
                 }
 
                 List(songsList) { song in
-                         NavigationLink(destination: ItunesSongDetailView(song: song)) {
+                    NavigationLink(destination: SongDetailView( iTunesSong: song)) {
                              ItunesSongListItemView(song: song)
                          }
                      }
@@ -62,7 +62,7 @@ struct SearchView: View {
         }
     }
 
-    private func getSongs(from urlString: String) async throws -> [Song2] {
+    private func getSongs(from urlString: String) async throws -> [iTunesSong] {
         guard let url = URL(string: urlString) else {
             throw HTTPError.invalidURL
         }

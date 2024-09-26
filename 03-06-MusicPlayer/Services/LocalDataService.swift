@@ -11,7 +11,7 @@ class LocalDataService {
     
     static let shared = LocalDataService()
     
-    func fetchAllSongs(for country: String) -> [Song] {
+    func fetchAllSongs(for country: String) -> [TopSong] {
         var path: String?
         
         // determine the path based on the selected country
