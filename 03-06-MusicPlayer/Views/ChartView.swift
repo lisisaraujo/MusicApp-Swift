@@ -8,10 +8,11 @@
 import SwiftUI
 
 struct ChartView: View {
-    
+
     @State private var songsList: [TopSong] = []
     @State private var selectedCountry: SelectedCountry = .germany
-    @State private var currentSong: TopSong? = TopSong(id: "1766137051", name: "The Emptiness Machine", artistName: "LINKIN PARK", artworkUrl100: "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/21/cf/6921cff3-7074-118a-ece2-4012450e6c75/093624839811.jpg/100x100bb.jpg", url: "#")
+    
+    @Binding var isPlaying: Bool
     
     enum SelectedCountry: String, CaseIterable {
         case germany = "de"
@@ -38,12 +39,11 @@ struct ChartView: View {
               
 
                 List(songsList) { song in
-                    NavigationLink(destination: SongDetailView(topSong: song)) {
-                        SongListItemView(song: song)
+                    NavigationLink(destination: SongDetailView(title: song.name, artist: song.artistName, artworkUrl: song.artworkUrl100, trackViewUrl: song.url, setCurrentSong: {})) {
+                        SongListItemView(title: song.name, artist: song.artistName, artWork: song.artworkUrl100)
                     }
                 }
                 .navigationTitle("Top Songs")
-                MiniPlayerView(currentSong: $currentSong)
             }
             .onAppear {
                 fetchAPIData()
@@ -82,5 +82,5 @@ struct ChartView: View {
 }
 
 #Preview {
-    ChartView()
+    ChartView(isPlaying: .constant(false))
 }

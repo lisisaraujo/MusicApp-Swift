@@ -13,26 +13,34 @@ enum Tab {
 
 struct HomeView: View {
     @State var selectedTab: Tab = .chart
+    @State var currentSong: iTunesSong?
     
+    @State var isPlaying = false
     
     var body: some View {
-        VStack{
-           
-            TabView(selection: $selectedTab) {
-                ChartView()
-                    .tabItem {
-                        Label("Charts", systemImage: "chart.bar.fill")
-                    }.tag(Tab.chart)
-
-                SearchView()
-                  .tabItem {
-                    Label("Search", systemImage: "magnifyingglass")
-                  }.tag(Tab.search)
-
-             
+        ZStack {
+            VStack {
+                TabView(selection: $selectedTab) {
+                    ChartView(isPlaying: $isPlaying)
+                        .tabItem {
+                            Label("Charts", systemImage: "chart.bar.fill")
+                        }.tag(Tab.chart)
+                    
+                    SearchView(currentSong: $currentSong)
+                        .tabItem {
+                            Label("Search", systemImage: "magnifyingglass")
+                        }.tag(Tab.search)
+                }
             }
+            VStack(spacing: 0){
+                Spacer()
+                if currentSong != nil {
+                MiniPlayerView(currentSong: $currentSong)
+                        .padding(.vertical, 49)
+                }
+            }
+        
         }
-  
     }
 }
 

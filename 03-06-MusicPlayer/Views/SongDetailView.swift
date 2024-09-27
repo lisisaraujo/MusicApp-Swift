@@ -6,18 +6,19 @@
 //
 
 import SwiftUI
-import AVFoundation
+
 
 struct SongDetailView: View {
-    @State var topSong: TopSong?
-    @State var iTunesSong: iTunesSong?
-    
-    @State private var player: AVPlayer?
-    @State private var isPlaying = false
+    var title: String
+    var artist: String
+    var artworkUrl: String?
+    var previewUrl: String?
+    var trackViewUrl: String?
+    var setCurrentSong: () -> Void
 
     var body: some View {
         VStack {
-            AsyncImage(url: URL(string: topSong?.artworkUrl100 ?? iTunesSong?.artworkUrl ?? "")) { phase in
+            AsyncImage(url: URL(string: artworkUrl ?? "")) { phase in
                 switch phase {
                 case .success(let image):
                     image
@@ -37,84 +38,58 @@ struct SongDetailView: View {
                 }
             }
             
-          
-            Text(topSong?.name ?? iTunesSong?.title ?? "")
+            Text(title)
                 .font(.title)
                 .padding(.top)
             
-           
-            Text(topSong?.artistName ?? iTunesSong?.artist ?? "")
+            Text(artist)
                 .font(.title2)
                 .foregroundColor(.secondary)
             
-            Button(action: {
-                togglePlayback()
-            }) {
-                Image(systemName: isPlaying ? "pause.fill" : "play.fill")
-                    .resizable()
-                    .frame(width: 20, height: 20)
-                    .foregroundColor(.white)
-                Text("Play Preview")
-                            .fontWeight(.semibold)
-                            .foregroundColor(.white)
-                            .padding(.leading, 5)
-     
-                 
+            if previewUrl != nil {
+                Button(action: {
+                   setCurrentSong()
+                }) {
+                    Image(systemName: "play.fill")
+                        .resizable()
+                        .frame(width: 20, height: 20)
+                        .foregroundColor(.white)
+                    Text("Play Preview")
+                                .fontWeight(.semibold)
+                                .foregroundColor(.white)
+                                .padding(.leading, 5)
+         
+                     
+                }
+                .frame(maxWidth: .infinity)
+                .padding()
+                .background(Color.pink)
+                .foregroundColor(.white)
+                .cornerRadius(15)
             }
-            .frame(maxWidth: .infinity)
-            .padding()
-            .background(Color.pink)
-            .foregroundColor(.white)
-            .cornerRadius(15)
+
             
-            Link(destination: URL(string: (topSong?.url ?? iTunesSong?.trackViewUrl) ?? "")!) {
-                Image("appleMusicBTN")
-                    .resizable()
-                    .frame(width: 150, height: 50)
-                    .scaledToFill()
+            if let trackViewUrl = trackViewUrl, let url = URL(string: trackViewUrl) {
+                Link(destination: url) {
+                    Image("appleMusicBTN")
+                        .resizable()
+                        .frame(width: 150, height: 50)
+                        .scaledToFill()
+                }
+                .buttonStyle(PlainButtonStyle())
             }
-            .buttonStyle(PlainButtonStyle())
         }
         .padding()
-        .onAppear {
-            setupPlayer()
-        }
-        .onDisappear {
-            player?.pause() // pause when view disappears
-        }
     }
-    
-    private func setupPlayer() {
-        guard let url = URL(string: iTunesSong?.previewUrl ?? "") else { return }
-        player = AVPlayer(url: url)
-    }
-
-    private func togglePlayback() {
-        guard let player = player else { return }
-        
-        if isPlaying {
-            player.pause()
-        } else {
-            player.play()
-        }
-        
-        isPlaying.toggle()
-    }
-    
-    
 }
 
 #Preview {
-    // Preview with TopSong
-//    SongDetailView(topSong: TopSong(id: "1766137051", name: "The Emptiness Machine", artistName: "LINKIN PARK", artworkUrl100: "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/21/cf/6921cff3-7074-118a-ece2-4012450e6c75/093624839811.jpg/100x100bb.jpg", url: "#"))
-
-    // Preview with iTunesSong (uncomment to test)
-    SongDetailView(iTunesSong: iTunesSong(
-        id: 1766137051,
+ 
+    SongDetailView(
         title: "The Emptiness Machine",
         artist: "LINKIN PARK",
         artworkUrl: "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/21/cf/6921cff3-7074-118a-ece2-4012450e6c75/093624839811.jpg/100x100bb.jpg",
-        trackViewUrl: "https://music.apple.com/us/album/the-emptiness-machine/1766137051?i=1766137052",
-        previewUrl: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/53/43/1f/53431f46-36d0-1a69-5c9b-f8f5bf9d82a5/mzaf_13055374056954277786.plus.aac.p.m4a"
-    ))
+        previewUrl: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/53/43/1f/53431f46-36d0-1a69-5c9b-f8f5bf9d82a5/mzaf_13055374056954277786.plus.aac.p.m4a",
+        trackViewUrl: "https://music.apple.com/us/album/the-emptiness-machine/1766137051?i=1766137052", setCurrentSong: {}
+    )
 }

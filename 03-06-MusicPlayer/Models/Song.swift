@@ -31,7 +31,7 @@ struct ItunesResponse: Codable {
     let results: [iTunesSong]
 }
 
-struct iTunesSong: Identifiable, Codable {
+struct iTunesSong: Identifiable, Codable, Equatable {
     let id: Int
     let title: String
     let artist: String
